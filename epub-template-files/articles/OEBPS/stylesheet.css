@@ -1,0 +1,15 @@
+pre, xmp {
+    border:                thin solid #DDC;
+    overflow:              auto;
+    padding:               0.4em 1.4em;
+    margin:                0.5em 1.4em 1.4em 0em;
+	background:            #FFE;
+	border-radius:         0.5em; 
+    -moz-border-radius:    0.5em; 
+    -webkit-border-radius: 0.5em;	
+}
+
+code {
+    font-weight:           bold;
+    color:                 #606;
+}

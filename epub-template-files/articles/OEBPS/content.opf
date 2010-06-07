@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" 
+            xmlns:dc="http://purl.org/dc/elements/1.1/" 
+            unique-identifier="bookid" version="2.0">
+  <metadata>
+    <dc:title>Android Articles</dc:title>
+    <dc:identifier id="bookid">urn:uuid:3F7334D0-A9DB-46A0-943F-A0E79FB98452</dc:identifier>
+    <dc:creator>android-sdk-epubs</dc:creator>
+    <dc:date>%dcDate%</dc:date>
+    <dc:rights>http://creativecommons.org/licenses/by/2.5/</dc:rights>
+    <dc:language>en-US</dc:language>
+  </metadata>
+  <manifest>
+    <item id="ncx"   href="toc.ncx"        media-type="application/x-dtbncx+xml"/>
+    <item id="css"   href="stylesheet.css" media-type="text/css"/>
+    <item id="cover" href="cover.html"     media-type="application/xhtml+xml"/>
+
+%manifestItems%
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+
+%spineItems%
+  </spine>
+  <guide>
+    <reference href="cover.html" type="cover" title="Cover"/>
+  </guide>
+</package>
